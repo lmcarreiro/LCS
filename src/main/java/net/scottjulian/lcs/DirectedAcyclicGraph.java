@@ -47,6 +47,9 @@ public class DirectedAcyclicGraph {
                     if(_sequences[k].containsPair(currentPair)) {
                         count++;
                     }
+                    else {
+                        break;
+                    }
                 }
                 if(count == numOfSeqs){
                     Boolean contains = false;
